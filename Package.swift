@@ -1,5 +1,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "PerfectLib"
+    name: "PerfectLib",
+    targets: [
+        Target(
+            name: "linked"
+            //dependencies: [.Target(name: "PerfectLib")]
+        )]
 )
