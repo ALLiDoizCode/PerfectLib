@@ -37,7 +37,17 @@ let package = Package(
                 /*dependencies: [.Target(name: "osx")
                     
                 ]*/
-            )]
+            )],
+            Target(
+                name: "ICU"),
+            Target(
+                name: "LibEvent"),
+            Target(
+                name: "SQLite3"),
+            Target(
+                name: "LinuxBridge"),
+            Target(
+                name: "cURL")
         )
     ]
 )
