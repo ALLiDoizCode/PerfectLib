@@ -10,11 +10,15 @@ let package = Package(
             name: "linked",
             dependencies: [.Target(
                 name: "ICU",
-                dependencies: [.Target(name: "osx"),
+                dependencies: [.Target(name: "osx")
                 
                 ],
                 name: "LibEvent",
-                dependencies: [.Target(name: "osx"),
+                dependencies: [.Target(name: "osx")
+                    
+                ],
+                name: "SQLite3",
+                dependencies: [.Target(name: "osx")
                     
                 ]
             )]
