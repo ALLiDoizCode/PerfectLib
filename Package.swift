@@ -14,10 +14,8 @@ let package = Package(
                 
                 ],
                 name: "LibEvent",
-                dependencies: [.Target(name: "osx")
-                    
-                ],
-                dependencies: [.Target(name: "ios")
+                dependencies: [.Target(name: "osx"),
+                    .Target(name: "ios")
                     
                 ],
                 name: "SQLite3",
