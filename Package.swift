@@ -4,9 +4,6 @@ let package = Package(
     name: "PerfectLib",
     targets: [
         Target(
-            name: "PerfectLib"
-        ),
-        Target(
             name: "linked",
             dependencies: [.Target(
                 name: "ICU",
