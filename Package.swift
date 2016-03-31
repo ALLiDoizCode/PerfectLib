@@ -25,7 +25,11 @@ let package = Package(
                 name: "OpenSSL",
                 dependencies: [.Target(name: "osx")
                     
-                ]
+                ],
+                name: "cURL"
+                /*dependencies: [.Target(name: "osx")
+                    
+                ]*/
             )]
         )
     ]
