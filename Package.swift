@@ -19,7 +19,8 @@ let package = Package(
                     
                 ],
                 name: "SQLite3",
-                dependencies: [.Target(name: "osx")
+                dependencies: [.Target(name: "osx"),
+                    .Target(name: "sqlite3")
                     
                 ],
                 name: "LinuxBridge",
