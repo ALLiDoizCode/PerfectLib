@@ -21,8 +21,18 @@ let package = Package(
                 
                 ],
                 name: "LibEvent",
-                dependencies: [.Target(name: "osx"),
-                    .Target(name: "ios")
+                dependencies: [.Target(name: "event2"),
+                    .Target(name: "ios"),
+                    .Target(name: "osx")
+                    
+                ],
+                name: "LinuxBridge",
+                name: "OpenSSL",
+                 dependencies: [.Target(name: "osx")
+                 
+                 ],
+                name: "OpenSSL_Linux",
+                dependencies: [.Target(name: "openssl")
                     
                 ],
                 name: "SQLite3",
@@ -30,11 +40,6 @@ let package = Package(
                     .Target(name: "sqlite3")
                     
                 ],
-                name: "LinuxBridge",
-                /*name: "OpenSSL",
-                dependencies: [.Target(name: "osx")
-                    
-                ],*/
                 name: "cURL",
                 dependencies: [.Target(name: "curl"),
                     .Target(name: "ios")
@@ -46,6 +51,12 @@ let package = Package(
                 name: "ICU"),
             Target(
                 name: "LibEvent"),
+            Target(
+                name: "LinuxBridge"),
+            Target(
+                name: "OpenSSL"),
+            Target(
+                name: "OpenSSL_Linux"),
             Target(
                 name: "SQLite3"),
             Target(
