@@ -4,6 +4,12 @@ let package = Package(
     name: "PerfectLib",
     targets: [
         Target(
+            name: "OSX"),
+        Target(
+            name: "docs"),
+        Target(
+            name: "iOS"),
+        Target(
             name: "linked",
             dependencies: [.Target(
                 name: "ICU",
