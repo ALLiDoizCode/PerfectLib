@@ -15,7 +15,9 @@ let package = Package(
             name: "linked",
             dependencies: [.Target(
                 name: "ICU",
-                dependencies: [.Target(name: "osx")
+                dependencies: [.Target(name: "old_unicode"),
+                    .Target(name: "osx"),
+                    .Target(name: "unicode")
                 
                 ],
                 name: "LibEvent",
