@@ -29,10 +29,10 @@ let package = Package(
                     
                 ],
                 name: "LinuxBridge",
-                name: "OpenSSL",
+                /*name: "OpenSSL",
                 dependencies: [.Target(name: "osx")
                     
-                ],
+                ],*/
                 name: "cURL"
                 /*dependencies: [.Target(name: "osx")
                     
