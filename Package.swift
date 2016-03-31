@@ -20,6 +20,11 @@ let package = Package(
                 name: "SQLite3",
                 dependencies: [.Target(name: "osx")
                     
+                ],
+                name: "LinuxBridge",
+                name: "OpenSSL",
+                dependencies: [.Target(name: "osx")
+                    
                 ]
             )]
         )
