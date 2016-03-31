@@ -8,7 +8,10 @@ let package = Package(
         ),
         Target(
             name: "linked",
-            dependencies: [.Target(name: "ICU")]
+            dependencies: [.Target(
+                name: "ICU",
+                dependencies: [.Target(name: "osx")]
+                )]
         )
     ]
 )
