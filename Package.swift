@@ -86,25 +86,27 @@ let package = Package(
                 name: "cURL_Linux"
                 
             )]
-        )
+        ),
         
-    ],
-            Target(
-                name: "ICU"),
-            Target(
-                name: "LibEvent"),
-            Target(
-                name: "LinuxBridge"),
-            Target(
-                name: "OpenSSL"),
-            Target(
-                name: "OpenSSL_Linux"),
-            Target(
-                name: "SQLite3"),
-            Target(
-                name: "LinuxBridge"),
-            Target(
-                name: "cURL"),
-            Target(
-                name: "cURL_Linux")
+        Target(
+            name: "ICU"),
+        Target(
+            name: "LibEvent"),
+        Target(
+            name: "LinuxBridge"),
+        Target(
+            name: "OpenSSL"),
+        Target(
+            name: "OpenSSL_Linux"),
+        Target(
+            name: "SQLite3"),
+        Target(
+            name: "LinuxBridge"),
+        Target(
+            name: "cURL"),
+        Target(
+            name: "cURL_Linux")
+        
+    ]
+    
 )
