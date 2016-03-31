@@ -37,7 +37,8 @@ let package = Package(
                 dependencies: [.Target(name: "curl"),
                     .Target(name: "ios")
                     
-                ]
+                ],
+                name: "cURL_Linux"
             )],
             Target(
                 name: "ICU"),
@@ -48,7 +49,9 @@ let package = Package(
             Target(
                 name: "LinuxBridge"),
             Target(
-                name: "cURL")
+                name: "cURL"),
+            Target(
+                name: "cURL_Linux")
         )
     ]
 )
