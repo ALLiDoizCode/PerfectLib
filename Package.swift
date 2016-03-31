@@ -3,9 +3,9 @@ import PackageDescription
 let package = Package(
     name: "PerfectLib",
     targets: [
-        /*Target(
-            name: "linked"
-        ),*/
+        Target(
+            name: "PerfectLib"
+        ),
         Target(
             name: "linked",
             dependencies: [.Target(
