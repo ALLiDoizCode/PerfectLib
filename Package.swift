@@ -25,6 +25,9 @@ let package = Package(
                     
                 ],
                 name: "LinuxBridge",
+                dependencies: [.Target(name: "module")
+                    
+                ],
                 name: "OpenSSL",
                 dependencies: [.Target(name: "osx")
                     
