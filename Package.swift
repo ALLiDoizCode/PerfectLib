@@ -33,10 +33,11 @@ let package = Package(
                 dependencies: [.Target(name: "osx")
                     
                 ],*/
-                name: "cURL"
-                /*dependencies: [.Target(name: "osx")
+                name: "cURL",
+                dependencies: [.Target(name: "curl"),
+                    .Target(name: "ios")
                     
-                ]*/
+                ]
             )],
             Target(
                 name: "ICU"),
