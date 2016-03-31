@@ -17,6 +17,9 @@ let package = Package(
                 dependencies: [.Target(name: "osx")
                     
                 ],
+                dependencies: [.Target(name: "ios")
+                    
+                ],
                 name: "SQLite3",
                 dependencies: [.Target(name: "osx")
                     
