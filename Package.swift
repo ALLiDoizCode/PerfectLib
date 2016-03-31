@@ -4,8 +4,8 @@ let package = Package(
     name: "PerfectLib",
     targets: [
         Target(
-            name: "PerfectLib")
-        /*Target(
+            name: "PerfectLib"),
+        Target(
             name: "OSX"),
         Target(
             name: "docs"),
@@ -38,6 +38,6 @@ let package = Package(
                     
                 ]*/
             )]
-        )*/
+        )
     ]
 )
