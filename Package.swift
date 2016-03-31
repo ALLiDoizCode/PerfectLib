@@ -5,6 +5,10 @@ let package = Package(
     targets: [
         Target(
             name: "linked"
-            //dependencies: [.Target(name: "PerfectLib")]
-        )]
+        ),
+        Target(
+            name: "linked",
+            dependencies: [.Target(name: "ICU")]
+        )
+    ]
 )
